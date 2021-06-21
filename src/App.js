@@ -16,7 +16,7 @@ const data = {
 export default function App() {
   return (
     <div class="card m-5">
-      <img class="card-img-top" src="data.image" alt="Card image cap" />
+      <img class="card-img-top" src={data.image} alt="Card image cap" />
       <div class="card-body">
         <h5 class="card-title">{data.cardTitle}</h5>
         <p class="card-text">{data.cardDescription}</p>
